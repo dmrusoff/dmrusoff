@@ -9,8 +9,8 @@
 
 ```text
 ┌────────────────────────────────────────────────────────────────────────┐
-│  Algorithmic execution systems • Custom NinjaScript / C# indicators    │
 │  Datacenter colocation • Enterprise networking • Cloud & cybersecurity │
+│  Algorithmic execution systems • Custom NinjaScript / C# indicators    │
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
