@@ -70,21 +70,77 @@ I am a **Trading Systems Engineer and Senior Infrastructure Architect** with **1
 ## 🚀 Featured Engineering Projects
 
 ### 📊 Trading Systems & Financial Intelligence
-| Project | Description | Stack |
-|---|---|---|
-| **[KINETIC_ROOM](https://github.com/dmrusoff/kinetic_room)** | Proprietary trading room dashboard featuring real-time Bitcoin tick charts via Liveline, live IPTV news channels, and dynamic futures profit/tick targeting. | `React 18` `TypeScript` `Tailwind` `Vite` `Framer Motion` |
-| **[NinjaTrader 8 Suite](https://github.com/dmrusoff/Trade-Target-Manager)** | Proprietary orderflow and price-action indicator suite (DynamicChannel, SessionsOHLC + 5m OR, CandleBodyAnalyzer, PositionScaler, DeltaLadder). | `C#` `.NET` `NinjaScript` `WPF` |
-| **[Finance Dashboard](https://github.com/dmrusoff/Finance-Dashboard)** | Enterprise multi-view financial telemetry platform with database integration, real-time logging, and Rolldown-bundled modular builds. | `React` `Vite 8` `Supabase` `TypeScript` |
-| **[Retirement Strategy Analyzer](https://github.com/dmrusoff/Retirement-Strategy-Analyzer)** | Interactive client-side simulation engine forecasting tax strategies (Traditional vs. Roth), safe withdrawal rate curves, and portfolio survivability. | `JavaScript` `HTML5 Canvas` `CSS3` `Vercel` |
+
+<table>
+  <thead>
+    <tr>
+      <th width="22%">Project</th>
+      <th width="53%">Description</th>
+      <th width="25%">Stack</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/dmrusoff/kinetic_room"><b>KINETIC_ROOM</b></a></td>
+      <td>Proprietary trading room dashboard featuring real-time Bitcoin tick charts via Liveline, live IPTV news channels, and dynamic futures profit/tick targeting.</td>
+      <td><code>React 18</code> <code>TypeScript</code> <code>Tailwind</code> <code>Vite</code> <code>Framer Motion</code></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/dmrusoff/Trade-Target-Manager"><b>NinjaTrader 8 Suite</b></a></td>
+      <td>Proprietary orderflow and price-action indicator suite (DynamicChannel, SessionsOHLC + 5m OR, CandleBodyAnalyzer, PositionScaler, DeltaLadder).</td>
+      <td><code>C#</code> <code>.NET</code> <code>NinjaScript</code> <code>WPF</code></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/dmrusoff/Finance-Dashboard"><b>Finance Dashboard</b></a></td>
+      <td>Enterprise multi-view financial telemetry platform with database integration, real-time logging, and Rolldown-bundled modular builds.</td>
+      <td><code>React</code> <code>Vite 8</code> <code>Supabase</code> <code>TypeScript</code></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/dmrusoff/Retirement-Strategy-Analyzer"><b>Retirement Strategy Analyzer</b></a></td>
+      <td>Interactive client-side simulation engine forecasting tax strategies (Traditional vs. Roth), safe withdrawal rate curves, and portfolio survivability.</td>
+      <td><code>JavaScript</code> <code>HTML5 Canvas</code> <code>CSS3</code> <code>Vercel</code></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 🤖 Autonomous Automation & Bot Fleet
-| Project | Description | Stack |
-|---|---|---|
-| **Watcher** | Self-healing daemon supervisor that launches and monitors bot fleets, tracks process health every 30s, executes backoff recovery, and transmits crash dumps to Telegram. | `Python 3` `uv` `Subprocess API` `Telegram API` |
-| **[Newsbot](https://github.com/dmrusoff/Newsbot)** | Discord bot conducting headless Forex Factory scraping for high-impact economic releases, macroeconomic regime analysis, and automated alerts. | `Python 3` `discord.py` `aiohttp` `BeautifulSoup4` `curl_cffi` |
-| **[Oilbot](https://github.com/dmrusoff/Discord-Price-Bot)** | Real-time WTI crude oil and commodities streaming price bot with automated Discord presence and webhook relays. | `Python 3` `discord.py` `Webull API` `dotenv` |
-| **[Radarr Telegram Bot](https://github.com/dmrusoff/RadarrTelegramBot)** | Resilient Telegram client for remote media automation featuring OS TCP keep-alive socket probes, rate-limit recovery, and infinite retry backoff. | `Python 3` `python-telegram-bot` `HTTPX` `uv` |
-| **[Furubot](https://github.com/dmrusoff/Furubot)** | High-uptime Discord relay bot with event-loop crash guards, automatic gateway reconnection, and targeted user DM relays. | `Node.js` `discord.js 14` `undici` |
+
+<table>
+  <thead>
+    <tr>
+      <th width="22%">Project</th>
+      <th width="53%">Description</th>
+      <th width="25%">Stack</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>Watcher</b></td>
+      <td>Self-healing daemon supervisor that launches and monitors bot fleets, tracks process health every 30s, executes backoff recovery, and transmits crash dumps to Telegram.</td>
+      <td><code>Python 3</code> <code>uv</code> <code>Subprocess API</code> <code>Telegram API</code></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/dmrusoff/Newsbot"><b>Newsbot</b></a></td>
+      <td>Discord bot conducting headless Forex Factory scraping for high-impact economic releases, macroeconomic regime analysis, and automated alerts.</td>
+      <td><code>Python 3</code> <code>discord.py</code> <code>aiohttp</code> <code>BeautifulSoup4</code> <code>curl_cffi</code></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/dmrusoff/Discord-Price-Bot"><b>Oilbot</b></a></td>
+      <td>Real-time WTI crude oil and commodities streaming price bot with automated Discord presence and webhook relays.</td>
+      <td><code>Python 3</code> <code>discord.py</code> <code>Webull API</code> <code>dotenv</code></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/dmrusoff/RadarrTelegramBot"><b>Radarr Telegram Bot</b></a></td>
+      <td>Resilient Telegram client for remote media automation featuring OS TCP keep-alive socket probes, rate-limit recovery, and infinite retry backoff.</td>
+      <td><code>Python 3</code> <code>python-telegram-bot</code> <code>HTTPX</code> <code>uv</code></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/dmrusoff/Furubot"><b>Furubot</b></a></td>
+      <td>High-uptime Discord relay bot with event-loop crash guards, automatic gateway reconnection, and targeted user DM relays.</td>
+      <td><code>Node.js</code> <code>discord.js 14</code> <code>undici</code></td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
