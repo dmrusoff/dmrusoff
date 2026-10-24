@@ -9,8 +9,8 @@
 
 ```text
 ┌────────────────────────────────────────────────────────────────────────┐
-│  High-frequency infrastructure • Low-latency trading systems • Secure  │
-│  enterprise networks • Autonomous process automation & telemetry       │
+│  Algorithmic execution systems • Custom NinjaScript / C# indicators    │
+│  Datacenter colocation • Enterprise networking • Cloud & cybersecurity │
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -22,7 +22,7 @@
 
 I am a **Trading Systems Engineer and Senior Infrastructure Architect** with **15+ years** of hands-on engineering experience spanning datacenter infrastructure, colocation architecture, enterprise network security, and quantitative trading systems. 
 
-- 📈 **Trading Systems Engineering**: 6+ years at **Diverge Trading** engineering algorithmic execution systems, custom NinjaScript / C# indicators, low-latency market data pipelines, and real-time futures risk/reward calculators.
+- 📈 **Trading Systems Engineering**: 6+ years at **Diverge Trading** engineering algorithmic execution systems, custom NinjaScript / C# indicators, real-time market data pipelines, and futures risk/reward calculators.
 - 🛡️ **Enterprise Infrastructure & Security**: Over a decade designing carrier-grade service provider networks, colocation facilities, NextGen firewalls (Palo Alto, Cisco), zero-trust networks (WireGuard, Tailscale), and disaster-recovery lifecycles.
 - 🤖 **Autonomous Automation & Bots**: Author of high-reliability bot fleets and self-healing daemon supervisors with live Telegram incident telemetry and financial data scrapers.
 - 🎓 **Education**: B.S. in Mechanical Engineering • Lifelong learner advancing into Applied AI Systems & Data Engineering.
@@ -72,7 +72,7 @@ I am a **Trading Systems Engineer and Senior Infrastructure Architect** with **1
 ### 📊 Trading Systems & Financial Intelligence
 | Project | Description | Stack |
 |---|---|---|
-| **[KINETIC_ROOM](https://github.com/dmrusoff/kinetic_room)** | High-frequency trading room dashboard featuring real-time Bitcoin tick charts via Liveline, live IPTV news channels, and dynamic futures profit/tick targeting. | `React 18` `TypeScript` `Tailwind` `Vite` `Framer Motion` |
+| **[KINETIC_ROOM](https://github.com/dmrusoff/kinetic_room)** | Proprietary trading room dashboard featuring real-time Bitcoin tick charts via Liveline, live IPTV news channels, and dynamic futures profit/tick targeting. | `React 18` `TypeScript` `Tailwind` `Vite` `Framer Motion` |
 | **[NinjaTrader 8 Suite](https://github.com/dmrusoff/Trade-Target-Manager)** | Proprietary orderflow and price-action indicator suite (DynamicChannel, SessionsOHLC + 5m OR, CandleBodyAnalyzer, PositionScaler, DeltaLadder). | `C#` `.NET` `NinjaScript` `WPF` |
 | **[Finance Dashboard](https://github.com/dmrusoff/Finance-Dashboard)** | Enterprise multi-view financial telemetry platform with database integration, real-time logging, and Rolldown-bundled modular builds. | `React` `Vite 8` `Supabase` `TypeScript` |
 | **[Retirement Strategy Analyzer](https://github.com/dmrusoff/Retirement-Strategy-Analyzer)** | Interactive client-side simulation engine forecasting tax strategies (Traditional vs. Roth), safe withdrawal rate curves, and portfolio survivability. | `JavaScript` `HTML5 Canvas` `CSS3` `Vercel` |
