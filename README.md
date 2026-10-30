@@ -10,7 +10,7 @@
 ```text
 ┌────────────────────────────────────────────────────────────────────────┐
 │  Datacenter colocation • Enterprise networking • Cloud & cybersecurity │
-│  Algorithmic execution systems • Custom NinjaScript / C# indicators    │
+│  Algorithmic execution systems • Autonomous bots & systems automation  │
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -22,10 +22,11 @@
 
 I am a **Trading Systems Engineer and Senior Infrastructure Architect** with **15+ years** of hands-on engineering experience spanning datacenter infrastructure, colocation architecture, enterprise network security, and quantitative trading systems. 
 
-- 📈 **Trading Systems Engineering**: 6+ years at **Diverge Trading** engineering algorithmic execution systems, custom NinjaScript / C# indicators, real-time market data pipelines, and futures risk/reward calculators.
-- 🛡️ **Enterprise Infrastructure & Security**: Over a decade designing carrier-grade service provider networks, colocation facilities, NextGen firewalls (Palo Alto, Cisco), zero-trust networks (WireGuard, Tailscale), and disaster-recovery lifecycles.
-- 🤖 **Autonomous Automation & Bots**: Author of high-reliability bot fleets and self-healing daemon supervisors with live Telegram incident telemetry and financial data scrapers.
-- 🎓 **Education**: B.S. in Mechanical Engineering • Lifelong learner advancing into Applied AI Systems & Data Engineering.
+- 📈 **Trading Systems Engineering**: 6+ years at **Diverge Trading** engineering algorithmic execution systems, automated trading utilities, futures risk management tools, and custom NinjaScript / C# indicators.
+- 🛡️ **Enterprise Infrastructure & Security**: Over a decade designing carrier-grade service provider networks, colocation facilities, NextGen firewalls, zero-trust networks, and disaster-recovery lifecycles. Led full-scale IT department overhauls—conducting security and asset discovery audits, uplifting network, storage, and compute systems, and deploying segmented enterprise Wi-Fi, VoIP/SIP, and off-site data backup architectures. Established compliance and change-management protocols, MFA hardening, automated patch/imaging pipelines, and end-to-end asset lifecycle management.
+- 🤖 **Autonomous Bots & Systems Automation**: Author of high-reliability bot fleets and self-healing daemon supervisors with live incident telemetry and financial data scrapers.
+- 🏠 **Smart Home & IoT Engineering**: Lifelong home automation tinkerer with several years of early-career professional experience engineering whole-home and theater automation systems—now building custom local integrations across **Home Assistant** and **Apple HomeKit**.
+- 🎓 **Education**: B.S. in Mechanical Engineering • Enterprise Networking, Cloud Computing & Cybersecurity certified • Lifelong learner advancing into Applied AI Systems & Data Engineering.
 
 ---
 
@@ -55,14 +56,18 @@ I am a **Trading Systems Engineer and Senior Infrastructure Architect** with **1
 ### Infrastructure, Networking & Cybersecurity
 <p>
   <img src="https://img.shields.io/badge/Cisco_CCNP_%26_CCDP-1BA0D7?style=flat-square&logo=cisco&logoColor=white" height="28"/>
+  <img src="https://img.shields.io/badge/Ubiquiti-0559C9?style=flat-square&logo=ubiquiti&logoColor=white" height="28"/>
   <img src="https://img.shields.io/badge/VMware_VCP-607078?style=flat-square&logo=vmware&logoColor=white" height="28"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" height="28"/>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" height="28"/>
   <img src="https://img.shields.io/badge/WireGuard-88171A?style=flat-square&logo=wireguard&logoColor=white" height="28"/>
   <img src="https://img.shields.io/badge/Tailscale-24292E?style=flat-square&logo=tailscale&logoColor=white" height="28"/>
   <img src="https://img.shields.io/badge/Splunk_SIEM-000000?style=flat-square&logo=splunk&logoColor=white" height="28"/>
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" height="28"/>
   <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white" height="28"/>
   <img src="https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" height="28"/>
+  <img src="https://img.shields.io/badge/Home_Assistant-18BCF2?style=flat-square&logo=homeassistant&logoColor=white" height="28"/>
+  <img src="https://img.shields.io/badge/Apple_HomeKit-000000?style=flat-square&logo=apple&logoColor=white" height="28"/>
 </p>
 
 ---
@@ -103,7 +108,7 @@ I am a **Trading Systems Engineer and Senior Infrastructure Architect** with **1
   </tbody>
 </table>
 
-### 🤖 Autonomous Automation & Bot Fleet
+### 🤖 Autonomous Bots & Systems Automation
 
 <table>
   <thead>
@@ -116,8 +121,8 @@ I am a **Trading Systems Engineer and Senior Infrastructure Architect** with **1
   <tbody>
     <tr>
       <td><b>Watcher</b></td>
-      <td>Self-healing daemon supervisor that launches and monitors bot fleets, tracks process health every 30s, executes backoff recovery, and transmits crash dumps to Telegram.</td>
-      <td><code>Python 3</code> <code>uv</code> <code>Subprocess API</code> <code>Telegram API</code></td>
+      <td>Self-healing daemon supervisor that launches and monitors bot fleets, tracks process health every 30s, executes backoff recovery, and dispatches crash dumps and incident logs via messaging webhooks.</td>
+      <td><code>Python 3</code> <code>uv</code> <code>Subprocess API</code> <code>Messaging API</code></td>
     </tr>
     <tr>
       <td><a href="https://github.com/dmrusoff/Newsbot"><b>Newsbot</b></a></td>
@@ -130,9 +135,9 @@ I am a **Trading Systems Engineer and Senior Infrastructure Architect** with **1
       <td><code>Python 3</code> <code>discord.py</code> <code>Webull API</code> <code>dotenv</code></td>
     </tr>
     <tr>
-      <td><a href="https://github.com/dmrusoff/RadarrTelegramBot"><b>Radarr Telegram Bot</b></a></td>
-      <td>Resilient Telegram client for remote media automation featuring OS TCP keep-alive socket probes, rate-limit recovery, and infinite retry backoff.</td>
-      <td><code>Python 3</code> <code>python-telegram-bot</code> <code>HTTPX</code> <code>uv</code></td>
+      <td><b>Media Automation Bot</b></td>
+      <td>Resilient messaging client for remote media automation featuring OS TCP keep-alive socket probes, rate-limit recovery, and infinite retry backoff.</td>
+      <td><code>Python 3</code> <code>Messaging API</code> <code>HTTPX</code> <code>uv</code></td>
     </tr>
     <tr>
       <td><a href="https://github.com/dmrusoff/Furubot"><b>Furubot</b></a></td>
