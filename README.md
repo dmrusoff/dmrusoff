@@ -131,13 +131,13 @@ I am a **Trading Systems Engineer and Senior Infrastructure Architect** with **1
   <tbody>
     <tr>
       <td><a href="https://github.com/dmrusoff/Newsbot"><b>Newsbot</b></a></td>
-      <td>Discord bot conducting headless Forex Factory scraping for high-impact economic releases, macroeconomic regime analysis, and automated alerts.</td>
-      <td><code>Python 3</code> <code>discord.py</code> <code>aiohttp</code> <code>BeautifulSoup4</code> <code>curl_cffi</code></td>
+      <td>Macroeconomic &amp; quantitative regime daemon combining TLS-impersonated Forex Factory scraping with NQ/ES Gamma Exposure (GEX), JPM Collar, and VIX regime briefings.</td>
+      <td><code>Python 3</code> <code>discord.py</code> <code>curl_cffi</code> <code>yfinance</code> <code>BeautifulSoup4</code></td>
     </tr>
     <tr>
       <td><a href="https://github.com/dmrusoff/Discord-Price-Bot"><b>Oilbot</b></a></td>
-      <td>Real-time WTI crude oil and commodities streaming price bot with automated Discord presence and webhook relays.</td>
-      <td><code>Python 3</code> <code>discord.py</code> <code>Webull API</code> <code>dotenv</code></td>
+      <td>Hybrid WTI crude oil telemetry daemon receiving real-time C# NinjaTrader 8 tick webhooks via <code>aiohttp</code> with a 4-tier asynchronous scraper failover.</td>
+      <td><code>Python 3</code> <code>C# / NinjaScript</code> <code>aiohttp</code> <code>discord.py</code></td>
     </tr>
     <tr>
       <td><a href="https://github.com/dmrusoff/RadarrTelegramBot"><b>Radarrbot</b></a></td>
