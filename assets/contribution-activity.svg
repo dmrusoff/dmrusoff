@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="100%" height="220">
+  <defs>
+    <linearGradient id="bgGrad9" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="50%" stop-color="#131924"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <filter id="glow9" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .tower-pulse { animation: floatTower 2.6s infinite ease-in-out; }
+      @keyframes floatTower {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-4px); }
+      }
+    </style>
+  </defs>
+
+  <rect x="2" y="2" width="896" height="216" rx="12" fill="url(#bgGrad9)" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- LEFT SIDE: CONTRIBUTION SNAKE -->
+  <rect x="18" y="18" width="424" height="184" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+  <text x="34" y="42" fill="#00f2ff" font-size="11.5" font-weight="bold" class="mono">🐍 CONTRIBUTION SNAKE • COMMIT MATRIX</text>
+
+  <!-- Contribution Grid (16 cols x 5 rows) -->
+  <g transform="translate(34, 60)">
+    <!-- Row 0 -->
+    <rect x="0"   y="0" width="16" height="16" rx="3" fill="#161b22"/>
+    <rect x="22"  y="0" width="16" height="16" rx="3" fill="#0e4429"/>
+    <rect x="44"  y="0" width="16" height="16" rx="3" fill="#006d32"/>
+    <rect x="66"  y="0" width="16" height="16" rx="3" fill="#161b22"/>
+    <rect x="88"  y="0" width="16" height="16" rx="3" fill="#26a641"/>
+    <rect x="110" y="0" width="16" height="16" rx="3" fill="#39d353"/>
+    <rect x="132" y="0" width="16" height="16" rx="3" fill="#0e4429"/>
+    <rect x="154" y="0" width="16" height="16" rx="3" fill="#161b22"/>
+    <rect x="176" y="0" width="16" height="16" rx="3" fill="#006d32"/>
+    <rect x="198" y="0" width="16" height="16" rx="3" fill="#26a641"/>
+    <rect x="220" y="0" width="16" height="16" rx="3" fill="#161b22"/>
+    <rect x="242" y="0" width="16" height="16" rx="3" fill="#0e4429"/>
+    <rect x="264" y="0" width="16" height="16" rx="3" fill="#39d353"/>
+    <rect x="286" y="0" width="16" height="16" rx="3" fill="#26a641"/>
+    <rect x="308" y="0" width="16" height="16" rx="3" fill="#006d32"/>
+    <rect x="330" y="0" width="16" height="16" rx="3" fill="#39d353"/>
+    <rect x="352" y="0" width="16" height="16" rx="3" fill="#26a641"/>
+
+    <!-- Row 1 -->
+    <rect x="0"   y="22" width="16" height="16" rx="3" fill="#0e4429"/>
+    <rect x="22"  y="22" width="16" height="16" rx="3" fill="#26a641"/>
+    <rect x="44"  y="22" width="16" height="16" rx="3" fill="#39d353"/>
+    <rect x="66"  y="22" width="16" height="16" rx="3" fill="#006d32"/>
+    <rect x="88"  y="22" width="16" height="16" rx="3" fill="#161b22"/>
+    <rect x="110" y="22" width="16" height="16" rx="3" fill="#006d32"/>
+    <rect x="132" y="22" width="16" height="16" rx="3" fill="#26a641"/>
+    <rect x="154" y="22" width="16" height="16" rx="3" fill="#39d353"/>
+    <rect x="176" y="22" width="16" height="16" rx="3" fill="#0e4429"/>
+    <rect x="198" y="22" width="16" height="16" rx="3" fill="#161b22"/>
+    <rect x="220" y="22" width="16" height="16" rx="3" fill="#26a641"/>
+    <rect x="242" y="22" width="16" height="16" rx="3" fill="#39d353"/>
+    <rect x="264" y="22" width="16" height="16" rx="3" fill="#006d32"/>
+    <rect x="286" y="22" width="16" height="16" rx="3" fill="#161b22"/>
+    <rect x="308" y="22" width="16" height="16" rx="3" fill="#26a641"/>
+    <rect x="330" y="22" width="16" height="16" rx="3" fill="#0e4429"/>
+    <rect x="352" y="22" width="16" height="16" rx="3" fill="#39d353"/>
+
+    <!-- Row 2 -->
+    <rect x="0"   y="44" width="16" height="16" rx="3" fill="#161b22"/>
+    <rect x="22"  y="44" width="16" height="16" rx="3" fill="#006d32"/>
+    <rect x="44"  y="44" width="16" height="16" rx="3" fill="#161b22"/>
+    <rect x="66"  y="44" width="16" height="16" rx="3" fill="#26a641"/>
+    <rect x="88"  y="44" width="16" height="16" rx="3" fill="#39d353"/>
+    <rect x="110" y="44" width="16" height="16" rx="3" fill="#0e4429"/>
+    <rect x="132" y="44" width="16" height="16" rx="3" fill="#161b22"/>
+    <rect x="154" y="44" width="16" height="16" rx="3" fill="#006d32"/>
+    <rect x="176" y="44" width="16" height="16" rx="3" fill="#26a641"/>
+    <rect x="198" y="44" width="16" height="16" rx="3" fill="#39d353"/>
+    <rect x="220" y="44" width="16" height="16" rx="3" fill="#006d32"/>
+    <rect x="242" y="44" width="16" height="16" rx="3" fill="#161b22"/>
+    <rect x="264" y="44" width="16" height="16" rx="3" fill="#26a641"/>
+    <rect x="286" y="44" width="16" height="16" rx="3" fill="#39d353"/>
+    <rect x="308" y="44" width="16" height="16" rx="3" fill="#0e4429"/>
+    <rect x="330" y="44" width="16" height="16" rx="3" fill="#26a641"/>
+    <rect x="352" y="44" width="16" height="16" rx="3" fill="#006d32"/>
+
+    <!-- Row 3 -->
+    <rect x="0"   y="66" width="16" height="16" rx="3" fill="#26a641"/>
+    <rect x="22"  y="66" width="16" height="16" rx="3" fill="#39d353"/>
+    <rect x="44"  y="66" width="16" height="16" rx="3" fill="#0e4429"/>
+    <rect x="66"  y="66" width="16" height="16" rx="3" fill="#161b22"/>
+    <rect x="88"  y="66" width="16" height="16" rx="3" fill="#006d32"/>
+    <rect x="110" y="66" width="16" height="16" rx="3" fill="#26a641"/>
+    <rect x="132" y="66" width="16" height="16" rx="3" fill="#39d353"/>
+    <rect x="154" y="66" width="16" height="16" rx="3" fill="#161b22"/>
+    <rect x="176" y="66" width="16" height="16" rx="3" fill="#0e4429"/>
+    <rect x="198" y="66" width="16" height="16" rx="3" fill="#26a641"/>
+    <rect x="220" y="66" width="16" height="16" rx="3" fill="#39d353"/>
+    <rect x="242" y="66" width="16" height="16" rx="3" fill="#006d32"/>
+    <rect x="264" y="66" width="16" height="16" rx="3" fill="#161b22"/>
+    <rect x="286" y="66" width="16" height="16" rx="3" fill="#0e4429"/>
+    <rect x="308" y="66" width="16" height="16" rx="3" fill="#39d353"/>
+    <rect x="330" y="66" width="16" height="16" rx="3" fill="#26a641"/>
+    <rect x="352" y="66" width="16" height="16" rx="3" fill="#39d353"/>
+
+    <!-- Animated Neon Snake Navigating Grid -->
+    <path d="M 8 8 L 118 8 L 118 52 L 228 52 L 228 30 L 338 30 L 338 74" fill="none" stroke="#00f2ff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="90 360" filter="url(#glow9)">
+      <animate attributeName="stroke-dashoffset" from="450" to="0" dur="3.6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <text x="34" y="182" fill="#8b949e" font-size="10" class="mono">Continuous delivery across Python, C#, TS &amp; Infra</text>
+
+  <!-- RIGHT SIDE: 3D ISOMETRIC CONTRIBUTION TOWERS -->
+  <rect x="458" y="18" width="424" height="184" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+  <text x="474" y="42" fill="#a855f7" font-size="11.5" font-weight="bold" class="mono">🧊 3D ISOMETRIC CONTRIBUTION TOPOLOGY</text>
+
+  <!-- Isometric Base Platform -->
+  <polygon points="670,70 830,130 670,182 510,130" fill="#161b22" stroke="#30363d" stroke-width="1.2"/>
+
+  <!-- Isometric 3D Towers -->
+  <!-- Back Tower 1 -->
+  <g transform="translate(620, 62)">
+    <polygon points="20,0 40,8 20,16 0,8" fill="#39d353"/>
+    <polygon points="0,8 20,16 20,44 0,36" fill="#006d32"/>
+    <polygon points="20,16 40,8 40,36 20,44" fill="#0e4429"/>
+  </g>
+  <!-- Back Tower 2 (Tall Cyan/Green) -->
+  <g transform="translate(665, 48)" class="tower-pulse">
+    <polygon points="20,0 40,8 20,16 0,8" fill="#00f2ff"/>
+    <polygon points="0,8 20,16 20,66 0,58" fill="#10b981"/>
+    <polygon points="20,16 40,8 40,58 20,66" fill="#047857"/>
+  </g>
+  <!-- Mid Tower 3 -->
+  <g transform="translate(575, 82)">
+    <polygon points="20,0 40,8 20,16 0,8" fill="#26a641"/>
+    <polygon points="0,8 20,16 20,42 0,34" fill="#006d32"/>
+    <polygon points="20,16 40,8 40,34 20,42" fill="#0e4429"/>
+  </g>
+  <!-- Mid Tower 4 (Tallest) -->
+  <g transform="translate(635, 64)" class="tower-pulse">
+    <polygon points="20,0 40,8 20,16 0,8" fill="#39d353"/>
+    <polygon points="0,8 20,16 20,68 0,60" fill="#26a641"/>
+    <polygon points="20,16 40,8 40,60 20,68" fill="#006d32"/>
+  </g>
+  <!-- Right Tower 5 -->
+  <g transform="translate(705, 76)">
+    <polygon points="20,0 40,8 20,16 0,8" fill="#39d353"/>
+    <polygon points="0,8 20,16 20,52 0,44" fill="#26a641"/>
+    <polygon points="20,16 40,8 40,44 20,52" fill="#006d32"/>
+  </g>
+  <!-- Front Tower 6 -->
+  <g transform="translate(668, 96)">
+    <polygon points="20,0 40,8 20,16 0,8" fill="#00f2ff"/>
+    <polygon points="0,8 20,16 20,54 0,46" fill="#0891b2"/>
+    <polygon points="20,16 40,8 40,46 20,54" fill="#155e75"/>
+  </g>
+
+  <text x="474" y="194" fill="#8b949e" font-size="10" class="mono">Multi-repo engineering velocity &amp; commit density</text>
+</svg>

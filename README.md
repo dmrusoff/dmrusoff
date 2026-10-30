@@ -171,15 +171,22 @@ I am a **Trading Systems Engineer and Senior Infrastructure Architect** with **1
 
 ---
 
-## 📈 GitHub Activity & Stats
+## ⚡ Systems Architecture & Engineering Telemetry
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dmrusoff&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="175" alt="David's GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dmrusoff&layout=compact&theme=tokyonight&hide_border=true&count_private=true" height="175" alt="Top Languages" />
+  <img src="./assets/career-timeline.svg" width="100%" alt="Career Evolution Timeline" />
 </div>
 
+<br/>
+
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dmrusoff&theme=tokyonight&hide_border=true" alt="David's GitHub streak" />
+  <img src="./assets/telemetry-dashboard.svg" width="100%" alt="Live Systems & Execution Telemetry" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="./assets/contribution-activity.svg" width="100%" alt="Contribution Snake & 3D Isometric Topology" />
 </div>
 
 ---

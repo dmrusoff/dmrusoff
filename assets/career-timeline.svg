@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 210" width="100%" height="210">
+  <defs>
+    <linearGradient id="bgGrad7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="50%" stop-color="#131924"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="trackGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="25%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="75%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#00f2ff"/>
+    </linearGradient>
+    <filter id="glow7" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .pulse { animation: pulseNode 2.2s infinite ease-in-out; }
+      @keyframes pulseNode {
+        0%, 100% { r: 7px; opacity: 1; }
+        50% { r: 9.5px; opacity: 0.7; }
+      }
+    </style>
+  </defs>
+
+  <!-- Card Background -->
+  <rect x="2" y="2" width="896" height="206" rx="12" fill="url(#bgGrad7)" stroke="#30363d" stroke-width="1.5"/>
+  <text x="28" y="30" fill="#8b949e" font-size="11.5" font-weight="bold" class="mono">⚡ ENGINEERING EVOLUTION  •  15+ YEARS OF SYSTEMS ARCHITECTURE</text>
+
+  <!-- Main Timeline Track -->
+  <line x1="95" y1="88" x2="805" y2="88" stroke="#21262d" stroke-width="6" stroke-linecap="round"/>
+  <line x1="95" y1="88" x2="805" y2="88" stroke="url(#trackGrad)" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Animated Traveling Pulse on Track -->
+  <circle r="5" fill="#00f2ff" filter="url(#glow7)">
+    <animateMotion dur="5s" repeatCount="indefinite" path="M 95 88 L 805 88"/>
+  </circle>
+
+  <!-- STAGE 1 -->
+  <circle cx="95" cy="88" r="11" fill="#0d1117" stroke="#f59e0b" stroke-width="2.5"/>
+  <circle cx="95" cy="88" r="5" fill="#f59e0b"/>
+  <text x="95" y="64" text-anchor="middle" fill="#f59e0b" font-size="10.5" font-weight="bold" class="mono">FOUNDATION</text>
+  <rect x="22" y="112" width="146" height="76" rx="7" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="95" y="132" text-anchor="middle" fill="#e6edf3" font-size="11" font-weight="bold" class="sans">MechE &amp; Smart Home</text>
+  <text x="95" y="149" text-anchor="middle" fill="#8b949e" font-size="9.5" class="mono">B.S. Mechanical Eng</text>
+  <text x="95" y="164" text-anchor="middle" fill="#8b949e" font-size="9.5" class="mono">Pro Home &amp; A/V Auto</text>
+  <text x="95" y="179" text-anchor="middle" fill="#f59e0b" font-size="9" class="mono">HA • HomeKit</text>
+
+  <!-- STAGE 2 -->
+  <circle cx="272" cy="88" r="11" fill="#0d1117" stroke="#3b82f6" stroke-width="2.5"/>
+  <circle cx="272" cy="88" r="5" fill="#3b82f6"/>
+  <text x="272" y="64" text-anchor="middle" fill="#3b82f6" font-size="10.5" font-weight="bold" class="mono">CARRIER &amp; DC</text>
+  <rect x="199" y="112" width="146" height="76" rx="7" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="272" y="132" text-anchor="middle" fill="#e6edf3" font-size="11" font-weight="bold" class="sans">Datacenter &amp; ISP</text>
+  <text x="272" y="149" text-anchor="middle" fill="#8b949e" font-size="9.5" class="mono">Colocation Buildouts</text>
+  <text x="272" y="164" text-anchor="middle" fill="#8b949e" font-size="9.5" class="mono">Carrier Routing / BGP</text>
+  <text x="272" y="179" text-anchor="middle" fill="#3b82f6" font-size="9" class="mono">CCNP • CCDP • VCP</text>
+
+  <!-- STAGE 3 -->
+  <circle cx="450" cy="88" r="11" fill="#0d1117" stroke="#a855f7" stroke-width="2.5"/>
+  <circle cx="450" cy="88" r="5" fill="#a855f7"/>
+  <text x="450" y="64" text-anchor="middle" fill="#a855f7" font-size="10.5" font-weight="bold" class="mono">ENTERPRISE SEC</text>
+  <rect x="377" y="112" width="146" height="76" rx="7" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="450" y="132" text-anchor="middle" fill="#e6edf3" font-size="11" font-weight="bold" class="sans">IT &amp; Cyber Uplift</text>
+  <text x="450" y="149" text-anchor="middle" fill="#8b949e" font-size="9.5" class="mono">Discovery Audits &amp; DR</text>
+  <text x="450" y="164" text-anchor="middle" fill="#8b949e" font-size="9.5" class="mono">NextGen FW &amp; Zero-Trust</text>
+  <text x="450" y="179" text-anchor="middle" fill="#a855f7" font-size="9" class="mono">SIEM • Cloud • MFA</text>
+
+  <!-- STAGE 4 -->
+  <circle cx="628" cy="88" r="11" fill="#0d1117" stroke="#10b981" stroke-width="2.5"/>
+  <circle cx="628" cy="88" r="5" fill="#10b981"/>
+  <text x="628" y="64" text-anchor="middle" fill="#10b981" font-size="10.5" font-weight="bold" class="mono">QUANT &amp; ALGO</text>
+  <rect x="555" y="112" width="146" height="76" rx="7" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="628" y="132" text-anchor="middle" fill="#e6edf3" font-size="11" font-weight="bold" class="sans">Trading Systems</text>
+  <text x="628" y="149" text-anchor="middle" fill="#8b949e" font-size="9.5" class="mono">Diverge Trading (6+ Yrs)</text>
+  <text x="628" y="164" text-anchor="middle" fill="#8b949e" font-size="9.5" class="mono">Algo Execution &amp; Risk</text>
+  <text x="628" y="179" text-anchor="middle" fill="#10b981" font-size="9" class="mono">C# • .NET • NinjaScript</text>
+
+  <!-- STAGE 5 -->
+  <circle cx="805" cy="88" r="12" fill="#0d1117" stroke="#00f2ff" stroke-width="2.5"/>
+  <circle cx="805" cy="88" r="6" fill="#00f2ff" class="pulse" filter="url(#glow7)"/>
+  <text x="805" y="64" text-anchor="middle" fill="#00f2ff" font-size="10.5" font-weight="bold" class="mono">CURRENT FOCUS</text>
+  <rect x="732" y="112" width="146" height="76" rx="7" fill="#161b22" stroke="#00f2ff" stroke-width="1.2"/>
+  <text x="805" y="132" text-anchor="middle" fill="#00f2ff" font-size="11" font-weight="bold" class="sans">Applied AI &amp; Bots</text>
+  <text x="805" y="149" text-anchor="middle" fill="#c9d1d9" font-size="9.5" class="mono">Self-Healing Bot Fleets</text>
+  <text x="805" y="164" text-anchor="middle" fill="#c9d1d9" font-size="9.5" class="mono">Data Eng &amp; AI Agents</text>
+  <text x="805" y="179" text-anchor="middle" fill="#00f2ff" font-size="9" class="mono">Python • TS • SQL</text>
+</svg>
