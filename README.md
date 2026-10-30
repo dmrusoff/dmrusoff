@@ -130,11 +130,6 @@ I am a **Trading Systems Engineer and Senior Infrastructure Architect** with **1
   </thead>
   <tbody>
     <tr>
-      <td><b>Watcher</b></td>
-      <td>Self-healing daemon supervisor that launches and monitors bot fleets, tracks process health every 30s, executes backoff recovery, and dispatches crash dumps and incident logs via messaging webhooks.</td>
-      <td><code>Python 3</code> <code>uv</code> <code>Subprocess API</code> <code>Messaging API</code></td>
-    </tr>
-    <tr>
       <td><a href="https://github.com/dmrusoff/Newsbot"><b>Newsbot</b></a></td>
       <td>Discord bot conducting headless Forex Factory scraping for high-impact economic releases, macroeconomic regime analysis, and automated alerts.</td>
       <td><code>Python 3</code> <code>discord.py</code> <code>aiohttp</code> <code>BeautifulSoup4</code> <code>curl_cffi</code></td>
@@ -153,6 +148,11 @@ I am a **Trading Systems Engineer and Senior Infrastructure Architect** with **1
       <td><a href="https://github.com/dmrusoff/Furubot"><b>Furubot</b></a></td>
       <td>High-uptime Discord relay bot with event-loop crash guards, automatic gateway reconnection, and targeted user DM relays.</td>
       <td><code>Node.js</code> <code>discord.js 14</code> <code>undici</code></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/dmrusoff/Watcher"><b>Watcher</b></a></td>
+      <td>Self-healing daemon supervisor that launches and monitors bot fleets, tracks process health every 30s, executes backoff recovery, and dispatches crash dumps and incident logs via messaging webhooks.</td>
+      <td><code>Python 3</code> <code>uv</code> <code>Subprocess API</code> <code>Messaging API</code></td>
     </tr>
   </tbody>
 </table>
