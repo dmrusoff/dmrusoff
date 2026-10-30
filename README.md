@@ -101,14 +101,14 @@ I am a **Trading Systems Engineer and Senior Infrastructure Architect** with **1
       <td><code>React</code> <code>TypeScript</code> <code>Tailwind</code> <code>Financial Engine</code></td>
     </tr>
     <tr>
+      <td><a href="https://github.com/dmrusoff/Retirement-Strategy-Analyzer"><b>Retirement Strategy Analyzer</b></a></td>
+      <td>Interactive client-side simulation engine forecasting tax strategies (Traditional vs. Roth), IRS Social Security provisional income taxation, and 30-year portfolio drawdowns.</td>
+      <td><code>JavaScript</code> <code>HTML5</code> <code>CSS3</code> <code>Tax Engine</code> <code>Vercel</code></td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/dmrusoff/Trade-Target-Manager"><b>NinjaTrader 8 Suite</b></a></td>
       <td>Proprietary orderflow and price-action indicator suite (DynamicChannel, SessionsOHLC + 5m OR, CandleBodyAnalyzer, PositionScaler, DeltaLadder).</td>
       <td><code>C#</code> <code>.NET</code> <code>NinjaScript</code> <code>WPF</code></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/dmrusoff/Retirement-Strategy-Analyzer"><b>Retirement Strategy Analyzer</b></a></td>
-      <td>Interactive client-side simulation engine forecasting tax strategies (Traditional vs. Roth), safe withdrawal rate curves, and portfolio survivability.</td>
-      <td><code>JavaScript</code> <code>HTML5 Canvas</code> <code>CSS3</code> <code>Vercel</code></td>
     </tr>
     <tr>
       <td><a href="https://github.com/dmrusoff/kinetic_room"><b>KINETIC_ROOM</b></a></td>
