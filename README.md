@@ -157,7 +157,7 @@ I am a **Trading Systems Engineer and Senior Infrastructure Architect** with **1
   </tbody>
 </table>
 
-### 🌐 Full-Stack Web Applications & Interactive Platforms
+### 🌐 Full-Stack Web Applications & Browser Extensions
 
 <table>
   <thead>
@@ -172,6 +172,11 @@ I am a **Trading Systems Engineer and Senior Infrastructure Architect** with **1
       <td><a href="https://github.com/dmrusoff/Photo"><b>Event Photo Drop</b></a></td>
       <td>Turnkey QR-ready event photo &amp; video sharing portal with direct-to-Cloudinary unsigned uploads, automatic CDN thumbnail &amp; MP4 transcoding, and a live paginated guest gallery.</td>
       <td><code>Next.js 16</code> <code>React 19</code> <code>Cloudinary CDN</code> <code>Vercel</code></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/dmrusoff/Wiki2Grok"><b>Wiki2Grok</b></a></td>
+      <td>Chromium Manifest V3 browser extension and companion web portal that intercepts Wikipedia article navigation via background service workers, filters special namespaces, and redirects to Grokipedia with live telemetry counters.</td>
+      <td><code>JavaScript</code> <code>Manifest V3</code> <code>WebNavigation API</code> <code>HTML5 / CSS3</code> <code>Vercel</code></td>
     </tr>
   </tbody>
 </table>
