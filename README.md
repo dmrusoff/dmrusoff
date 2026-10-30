@@ -157,6 +157,25 @@ I am a **Trading Systems Engineer and Senior Infrastructure Architect** with **1
   </tbody>
 </table>
 
+### 🌐 Full-Stack Web Applications & Interactive Platforms
+
+<table>
+  <thead>
+    <tr>
+      <th width="22%">Project</th>
+      <th width="53%">Description</th>
+      <th width="25%">Stack</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/dmrusoff/Photo"><b>Event Photo Drop</b></a></td>
+      <td>Turnkey QR-ready event photo &amp; video sharing portal with direct-to-Cloudinary unsigned uploads, automatic CDN thumbnail &amp; MP4 transcoding, and a live paginated guest gallery.</td>
+      <td><code>Next.js 16</code> <code>React 19</code> <code>Cloudinary CDN</code> <code>Vercel</code></td>
+    </tr>
+  </tbody>
+</table>
+
 ---
 
 ## 📜 Certifications & Accreditations
