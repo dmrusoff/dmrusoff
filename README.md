@@ -86,7 +86,7 @@ I am a **Trading Systems Engineer and Senior Infrastructure Architect** with **1
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/dmrusoff/Finance-Dashboard"><b>Finance Dashboard</b></a></td>
+      <td><a href="https://github.com/dmrusoff/Financial-Telemetry-Dashboard"><b>Finance Dashboard</b></a></td>
       <td>Enterprise multi-view financial telemetry platform with automated Plaid balance syncing, cash-flow projections, OWASP-compliant session timeouts, and Row-Level Security.</td>
       <td><code>React</code> <code>TypeScript</code> <code>Supabase</code> <code>Plaid API</code> <code>Vite 8</code></td>
     </tr>
