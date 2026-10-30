@@ -145,7 +145,7 @@ I am a **Trading Systems Engineer and Senior Infrastructure Architect** with **1
       <td><code>Python 3</code> <code>discord.py</code> <code>Webull API</code> <code>dotenv</code></td>
     </tr>
     <tr>
-      <td><b>Media Automation Bot</b></td>
+      <td><a href="https://github.com/dmrusoff/RadarrTelegramBot"><b>Radarrbot</b></a></td>
       <td>Resilient messaging client for remote media automation featuring OS TCP keep-alive socket probes, rate-limit recovery, and infinite retry backoff.</td>
       <td><code>Python 3</code> <code>Messaging API</code> <code>HTTPX</code> <code>uv</code></td>
     </tr>
