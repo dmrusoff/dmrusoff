@@ -86,9 +86,19 @@ I am a **Trading Systems Engineer and Senior Infrastructure Architect** with **1
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/dmrusoff/kinetic_room"><b>KINETIC_ROOM</b></a></td>
-      <td>Proprietary trading room dashboard featuring real-time Bitcoin tick charts via Liveline, live IPTV news channels, and dynamic futures profit/tick targeting.</td>
-      <td><code>React 18</code> <code>TypeScript</code> <code>Tailwind</code> <code>Vite</code> <code>Framer Motion</code></td>
+      <td><a href="https://github.com/dmrusoff/Finance-Dashboard"><b>Finance Dashboard</b></a></td>
+      <td>Enterprise multi-view financial telemetry platform with automated Plaid balance syncing, cash-flow projections, OWASP-compliant session timeouts, and Row-Level Security.</td>
+      <td><code>React</code> <code>TypeScript</code> <code>Supabase</code> <code>Plaid API</code> <code>Vite 8</code></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/dmrusoff/Asset-Inventory-System"><b>Asset Inventory System</b></a></td>
+      <td>Full-stack physical asset management module featuring glassmorphic UI, client-side HEIC-to-JPEG conversion with automated CDN image pipelines, 3-tier dynamic brand logo resolution, and audit history logs.</td>
+      <td><code>React</code> <code>TypeScript</code> <code>Supabase RLS</code> <code>GitHub CDN API</code></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/dmrusoff/Float-Optimizer"><b>Float Optimizer</b></a></td>
+      <td>Algorithmic credit-float and cash-flow optimization engine that scores cards by statement/due-date windows, monitors utilization and concentration risk, projects 30-day outflows, and recommends due-date adjustments.</td>
+      <td><code>React</code> <code>TypeScript</code> <code>Tailwind</code> <code>Financial Engine</code></td>
     </tr>
     <tr>
       <td><a href="https://github.com/dmrusoff/Trade-Target-Manager"><b>NinjaTrader 8 Suite</b></a></td>
@@ -96,14 +106,14 @@ I am a **Trading Systems Engineer and Senior Infrastructure Architect** with **1
       <td><code>C#</code> <code>.NET</code> <code>NinjaScript</code> <code>WPF</code></td>
     </tr>
     <tr>
-      <td><a href="https://github.com/dmrusoff/Finance-Dashboard"><b>Finance Dashboard</b></a></td>
-      <td>Enterprise multi-view financial telemetry platform with database integration, real-time logging, and Rolldown-bundled modular builds.</td>
-      <td><code>React</code> <code>Vite 8</code> <code>Supabase</code> <code>TypeScript</code></td>
-    </tr>
-    <tr>
       <td><a href="https://github.com/dmrusoff/Retirement-Strategy-Analyzer"><b>Retirement Strategy Analyzer</b></a></td>
       <td>Interactive client-side simulation engine forecasting tax strategies (Traditional vs. Roth), safe withdrawal rate curves, and portfolio survivability.</td>
       <td><code>JavaScript</code> <code>HTML5 Canvas</code> <code>CSS3</code> <code>Vercel</code></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/dmrusoff/kinetic_room"><b>KINETIC_ROOM</b></a></td>
+      <td>AI-assisted web design and UI concept for a trading room interface and market analysis tools.</td>
+      <td><code>React 18</code> <code>TypeScript</code> <code>Tailwind</code> <code>Vite</code> <code>Framer Motion</code></td>
     </tr>
   </tbody>
 </table>
