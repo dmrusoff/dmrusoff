@@ -130,6 +130,11 @@ I am a **Trading Systems Engineer and Senior Infrastructure Architect** with **1
   </thead>
   <tbody>
     <tr>
+      <td><a href="https://github.com/dmrusoff/BotTerminal"><b>BotTerminal</b></a></td>
+      <td>Zero-dependency 2×2 Ghostty TUI command center and multi-daemon process supervisor that streams structured real-time telemetry for Furubot, Oilbot, Newsbot, and Radarrbot while filtering log noise.</td>
+      <td><code>Python 3</code> <code>asyncio</code> <code>ANSI TUI</code> <code>Ghostty</code> <code>launchd</code></td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/dmrusoff/Newsbot"><b>Newsbot</b></a></td>
       <td>Macroeconomic &amp; quantitative regime daemon combining TLS-impersonated Forex Factory scraping with NQ/ES Gamma Exposure (GEX), JPM Collar, and VIX regime briefings.</td>
       <td><code>Python 3</code> <code>discord.py</code> <code>curl_cffi</code> <code>yfinance</code> <code>BeautifulSoup4</code></td>
